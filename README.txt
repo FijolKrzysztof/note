@@ -10,7 +10,7 @@ INSTALLATION (UBUNTU):
   6. In the "Name:" field, enter "noteScheduler".
   7. In the "Command:" field enter "/home/"username"/Note/noteScheduler" replacing "username" with the name of the current user.
   8. Press "add".
-  9. Create a link to the "DB" file by entering "ln -s /home/"username"/Note/DB /home/"username"" in command prompt (if such a file already exists, delete it and        enter the command again).
+  9. Create a link to the "DB" file by entering "ln -s /home/"username"/Note/DB /home/"username"" in command prompt (if such a file already exists, delete it and enter the command again).
   10. Log out and log back in.
 
 IF YOU WANT TO RUN THE PROGRAM FROM COMMAND PROMPT:
