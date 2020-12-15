@@ -1,7 +1,6 @@
 #include "data.h"
 using namespace std;
-const char* globalPath = "/home/ja/project/cpp/note/DB";
-//const char* globalPath = "DB";
+const char* globalPath = "/path/to/database/named/DB";
 vector<string> cellData;
 
 const QString getText(int ID)
