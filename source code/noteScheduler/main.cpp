@@ -41,8 +41,7 @@ vector<string> SQLGet(string sql)
 {
     cellData.clear();
     sqlite3 *DB;
-    sqlite3_open("/home/ja/project/cpp/note/DB", &DB);
-    //sqlite3_open("Note/DB", &DB);
+    sqlite3_open("/path/to/database/named/DB", &DB);
     sqlite3_exec(DB, sql.c_str(), callback, NULL, NULL);
     return cellData;
 }
@@ -74,8 +73,7 @@ int main()
                 string date = convert.toStdString();
                 if(date >= schedule)
                 {
-                    system("/home/ja/project/cpp/note/debug/note123");
-                    //system("Note/note123");
+                    system("/path/to/note123");
                 }
             }
         }
