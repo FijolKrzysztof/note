@@ -26,7 +26,3 @@ IF YOU WANT TO RUN THE PROGRAM FROM ACTIVITIES:
 USE OF SOURCE CODE:
 
   In "note/data.cpp" on line 3 and in "noteScheduler/main.cpp" on lines 44 and 76, there are paths to change.
-
-WEBSITE:
-  
-  [GitHub](https://github.com/FijolKrzysztof/website)
